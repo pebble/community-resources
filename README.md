@@ -14,14 +14,15 @@ We are looking for well written apps that other people can use to learn Pebble d
 
 **NOTE:** You must provide a license for your apps in order for it to get approved. The best way to do that is to include a LICENSE file in your app repository.
 
-To add your app, create a new Markdown file in the `examples` folder with the same name as your app (in a URL friendly style, such as `multi-timer.md` or `uk-transport.md`)
+To add your app, create a new Markdown file in the `apps` folder with the same name as your app (in a URL friendly style, such as `multi-timer.md` or `uk-transport.md`)
 
 At the top of your Markdown file, you will need to have a metadata block that contains the folllowing properties.
 
 ```
 ---
 name: Multi Timer
-link: https://github.com/smallstoneapps/multi-timer/
+creator: Matthew Tole
+url: https://github.com/smallstoneapps/multi-timer/
 appstore: 52bda40bdc2f4f552e000089
 tags:
   - watchapp
@@ -30,21 +31,20 @@ tags:
 ---
 ```
 
-Hopefully `name` and `link` are self explanatory. The `appstore` entry is be the Pebble Appstore ID for your app. If your app isn't on the Pebble appstore, omit this line. The `tags`  property will be used on the site to let people browse by different properties. See below for the list of all of the possible tags.
+Hopefully `name`, `creator` and `link` are self explanatory. The `appstore` entry is be the Pebble Appstore ID for your app. If your app isn't on the Pebble appstore, omit this line. The `tags`  property will be used on the site to let people browse by different properties. See below for the list of all of the possible tags.
 
 Below this metadata block you should write a description of your app. Include details of the key features it has.
 
 #### Tags
 
-- `watchapp` - The app is a watchapp.
-- `watchface` - The app is a watchface.
-- `android` - The app has an Android companion app.
-- `ios`- The App has an iOS companion app.
+- `watchapp` - The app is a watchapp
+- `watchface` - The app is a watchface
+- `android` - The app has an Android companion app
+- `ios`- The App has an iOS companion app
 - `js` - The app uses PebbleKitJS
 - `pebblejs` - The app is written in Pebble.JS
-- `storage` - The app uses Persistent 
-
-
+- `storage` - The app uses Persistent Storage
+- `config` - The app has a config page
 
 ### Developer Tools
 
@@ -55,7 +55,8 @@ At the top of your Markdown file, you will need to have a metadata block that co
 ```
 ---
 name: Watchface Generator
-link: http://watchface-generator.de
+creator: Paul Rode
+url: http://watchface-generator.de
 ---
 ```
 
@@ -73,7 +74,8 @@ At the top of your Markdown file, you will need to have a metadata block that co
 ```
 ---
 name: JS Message Queue
-link: https://github.com/smallstoneapps/js-message-queue/
+creator: Matthew Tole
+url: https://github.com/smallstoneapps/js-message-queue/
 language: js
 ---
 ```
