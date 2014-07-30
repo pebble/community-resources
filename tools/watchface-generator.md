@@ -12,8 +12,8 @@ Available features:
 - Free text
 - Battery- and connection-indicator
 
-|[Analog](http://www.watchface-generator.de/v2/watchfaces/20140130/ultra_analog/preview.png)
+![Analog](http://www.watchface-generator.de/v2/watchfaces/20140130/ultra_analog/preview.png)
 
-|[Analog Square](http://www.watchface-generator.de/v2/watchfaces/20140214/analog/preview.png)
+![Analog Square](http://www.watchface-generator.de/v2/watchfaces/20140214/analog/preview.png)
 
-|[Big Time](http://www.watchface-generator.de/wf/20140612/big_kredit_2/preview.png)
+![Big Time](http://www.watchface-generator.de/wf/20140612/big_kredit_2/preview.png)
