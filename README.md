@@ -44,11 +44,11 @@ Below this metadata block you should write a description of your app. Include de
 - `js` - The app uses PebbleKit JS
 - `pebblejs` - The app is written in Pebble.JS
 - 'notifications' - The app uses PebbleKit notifications
-- `storage` - The app uses persistent storage
+- `storage` - The app uses ``Persistent Storage``
 - `config` - The app has a settings/config page
 - 'sensors' - The app uses Pebble sensors
-- 'messaging' - The app uses AppMessage, AppSync or Data Logging
-- 'animation' - The app uses property animations
+- 'messaging' - The app uses ``AppMessage``, ``AppSync`` or ``DataLogging``
+- 'animation' - The app uses ``PropertyAnimation``
 - 'graphics' - The app uses Pebble's more advanced graphics/drawing operations
 
 ### Developer Tools
