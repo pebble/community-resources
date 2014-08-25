@@ -31,9 +31,9 @@ tags:
 ---
 ```
 
-Hopefully `name`, `creator` and `url` are self-explanatory. The `appstore` entry is the Pebble appstore ID for your app. If your app isn't on the Pebble appstore, omit this line. The `tags`  list will be used on the site to let people browse by different tags. See below for the list of all of the possible tags.
+`name`, `creator` and `url` should be self-explanatory. The `appstore` entry is the Pebble appstore ID for your app. If your app isn't on the Pebble appstore, omit this line. The `tags` list will be used on the site to let people browse by different tags. See below for the list of all of the possible tags.
 
-Below this metadata block you should write a description of your app. Include details of the key features it has.
+Below this metadata block you should write a description of your app. Include details of the key features your app has.
 
 #### Tags
 
@@ -41,10 +41,15 @@ Below this metadata block you should write a description of your app. Include de
 - `watchface` - The app is a watchface
 - `android` - The app has an Android companion app
 - `ios`- The App has an iOS companion app
-- `js` - The app uses PebbleKitJS
+- `js` - The app uses PebbleKit JS
 - `pebblejs` - The app is written in Pebble.JS
-- `storage` - The app uses Persistent Storage
-- `config` - The app has a config page
+- 'notifications' - The app uses PebbleKit notifications
+- `storage` - The app uses persistent storage
+- `config` - The app has a settings/config page
+- 'sensors' - The app uses Pebble sensors
+- 'messaging' - The app uses AppMessage, AppSync or Data Logging
+- 'animation' - The app uses property animations
+- 'graphics' - The app uses Pebble's more advanced graphics/drawing operations
 
 ### Developer Tools
 
@@ -66,7 +71,7 @@ Below this metadata block you should write a description of your tool.
 
 **NOTE:** You must provide an open-source license for your library in order for it to be approved. The best way to do that is to include a LICENSE file in the repository for your library.
 
-To add your library create a new Markdown file in the `libraries` folder with the same name as your library (in a URL-friendly style, such as `js-message-queue.md` or `clock-layer.md`).
+To add your library, create a new Markdown file in the `libraries` folder with the same name as your library (in a URL-friendly style, such as `js-message-queue.md` or `clock-layer.md`).
 
 At the top of your Markdown file you will need to have a metadata block that contains the following properties.
 
