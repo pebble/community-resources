@@ -1,7 +1,7 @@
 ---
 name: Multi Timer
 creator: Matthew Tole
-url: https://github.com/smallstoneapps/multi-timer
+link: https://github.com/smallstoneapps/multi-timer
 appstore: 52d30a1d19412b4d84000025
 tags:
   - watchapp

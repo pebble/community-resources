@@ -22,7 +22,7 @@ At the top of your Markdown file you will need to have a metadata block that con
 ---
 name: Multi Timer
 creator: Matthew Tole
-url: https://github.com/smallstoneapps/multi-timer/
+link: https://github.com/smallstoneapps/multi-timer/
 appstore: 52bda40bdc2f4f552e000089
 tags:
   - watchapp
@@ -31,7 +31,7 @@ tags:
 ---
 ```
 
-Hopefully `name`, `creator` and `url` are self-explanatory. The `appstore` entry is the Pebble appstore ID for your app. If your app isn't on the Pebble appstore, omit this line. The `tags`  list will be used on the site to let people browse by different tags. See below for the list of all of the possible tags.
+Hopefully `name`, `creator` and `link` are self-explanatory. The `appstore` entry is the Pebble appstore ID for your app. If your app isn't on the Pebble appstore, omit this line. The `tags`  list will be used on the site to let people browse by different tags. See below for the list of all of the possible tags.
 
 Below this metadata block you should write a description of your app. Include details of the key features it has.
 
@@ -56,7 +56,7 @@ At the top of your Markdown file, you will need to have a metadata block that co
 ---
 name: Watchface Generator
 creator: Paul Rode
-url: http://watchface-generator.de
+link: http://watchface-generator.de
 ---
 ```
 
@@ -75,7 +75,7 @@ At the top of your Markdown file you will need to have a metadata block that con
 ---
 name: JS Message Queue
 creator: Matthew Tole
-url: https://github.com/smallstoneapps/js-message-queue/
+link: https://github.com/smallstoneapps/js-message-queue/
 language: js
 ---
 ```
