@@ -26,8 +26,8 @@ to be approved. The best way to do that is to include a LICENSE file in your app
 repository.
 
 To add your app, create a new Markdown file in the `apps` folder with the same
-name as your app (in a URL friendly style, such as `multi-timer.md` or `uk-
-transport.md`)
+name as your app (in a URL friendly style, such as `multi-timer.md` or
+`uk-transport.md`)
 
 At the top of your Markdown file you will need to have a metadata block that
 contains the following properties:
