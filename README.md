@@ -1,18 +1,20 @@
 # Pebble Community Resources
 
-We are putting together a collection of community resources for a new section on
-the Pebble Developer Website, and we need *your* contributions!
+We are putting together a collection of links to amazing community resources for
+a new section on the Pebble Developer Website, and we want *your* contributions!
 
 There are three types of content we are looking for:
-**[Example Apps](#example-apps)**, **[Developer Tools](#developer-tools)**, and
-**[Libraries](#libraries)**
 
-To add your resource to the collection, simply [fork this GitHub
-repository][fork], follow the relevant guide below to create a Markdown file in
-the right folder, and submit a pull request.
+* **[Example Apps](#example-apps)**
+* **[Developer Tools](#developer-tools)**
+* **[Libraries](#libraries)**
+
+To add your app, tool or library to the collection, simply [fork this GitHub
+repository][fork], follow the relevant section of guide to create a Markdown
+file in the right folder, and submit a pull request.
 
 You can also take a look at some of the resources that have already been
-submitted to see how to do it.
+submitted for further guidance.
 
 ### Example Apps
 
@@ -43,10 +45,11 @@ tags:
 ---
 ```
 
-`name`, `creator` and `url` should be self-explanatory. The `appstore` entry is
-the Pebble appstore ID for your app. If your app isn't on the Pebble appstore,
-omit this line. The `tags` list will be used on the site to let people browse by
-different tags. See below for the list of all of the possible tags.
+The `name`, `creator` and `link` properties should be self-explanatory. The
+`appstore` entry is the Pebble appstore ID for your app. If your app isn't on
+the Pebble appstore, omit this line. The `tags` list will be used on the site
+to let people browse apps by their tags. See below for the list of all of the
+possible tags.
 
 Below this metadata block you should write a description of your app. Include
 details of the key features your app has.
@@ -84,6 +87,8 @@ link: http://watchface-generator.de
 ---
 ```
 
+The `name`, `creator` and `link` properties should be self-explanatory.
+
 Below this metadata block you should write a description of your tool.
 
 ### Libraries
@@ -109,10 +114,17 @@ language: js
 ---
 ```
 
-The `language` property should be one of `c`, `js`, `android`, or `ios`. This
-will help people find your library.
+The `name`, `creator` and `link` properties should be self-explanatory. The
+`language` property should be one of `c`, `js`, `android`, or `ios`. This will
+help people find your library.
 
-Below the metadata block you should write a description of your library. Talk
-about what problem it aims to solve and how people should use it.
+Below the metadata block you should write a description of your library. Include
+details about what problem it aims to solve and how people should use it.
+
+---
+
+If you have any questions about submitting your app, tool or library, or need
+help with forking, writing Markdown or creating a pull request, contact
+<devsupport@getpebble.com>.
 
 [fork]: https://github.com/pebble-hacks/community-resources/fork
