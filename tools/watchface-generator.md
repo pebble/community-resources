@@ -1,7 +1,7 @@
 ---
 name: Watchface Generator
 creator: Paul Rode
-url: http://watchface-generator.de
+link: http://www.watchface-generator.de
 ---
 Create your own, simple watchface without any coding-skills.
 Available features:
