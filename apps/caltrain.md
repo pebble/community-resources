@@ -9,8 +9,8 @@ tags:
   - storage
 ---
 
-Caltrain is a Pebble app that displays upcoming trains at a station, and those
-trains will stop along the remainder of their routes.
+Caltrain is a Pebble app that displays upcoming trains at a station, and where
+those trains will stop along the remainder of each of their routes.
 
 It stores the schedule locally in ``resources``, and makes heavy use of
 ``resource_load_byte_range`` to read in the required data without running out
