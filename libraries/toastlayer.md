@@ -7,7 +7,7 @@ language: c
 
 ## Description
 
-ToastLayer UI element for showing a time-limited notification within you app.
+ToastLayer UI element for showing a time-limited notification within your app.
 Use just like a normal `Layer`, such as `TextLayer` or `MenuLayer`.
 
 ## Instructions
