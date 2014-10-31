@@ -1,6 +1,7 @@
 ---
 name: Caltrain
 creator: Katharine Berry
+license: mit
 link: https://github.com/Katharine/pebble-caltrain/
 appstore: 53eb5caf6743f7a863000201
 tags:

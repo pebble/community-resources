@@ -1,6 +1,7 @@
 ---
 name: ToastLayer Library
 creator: Chris Lewis
+license: mit
 link: https://github.com/C-D-Lewis/ToastLayer/
 language: c
 ---

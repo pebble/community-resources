@@ -1,6 +1,7 @@
 ---
 name: JS Message Queue
 creator: Matthew Tole
+license: mit
 link: https://github.com/smallstoneapps/js-message-queue/
 language: js
 ---

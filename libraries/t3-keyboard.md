@@ -1,6 +1,7 @@
 ---
 name: T3 Keyboard
 creator: Chris Nucci
+license: apache
 link: https://github.com/cnucci/t3-keyboard
 language: c
 ---
