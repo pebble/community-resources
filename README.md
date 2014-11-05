@@ -23,7 +23,8 @@ development.
 
 **NOTE:** You must provide an open-source license for your apps in order for it
 to be approved. The best way to do that is to include a LICENSE file in your app
-repository.
+repository. Indicate the license you have selected in the
+> metadata block of your Markdown file.
 
 To add your app, create a new Markdown file in the `apps` folder with the same
 name as your app (in a URL friendly style, such as `multi-timer.md` or
@@ -36,6 +37,7 @@ contains the following properties:
 ---
 name: Multi Timer
 creator: Matthew Tole
+license: mit
 link: https://github.com/smallstoneapps/multi-timer/
 appstore: 52bda40bdc2f4f552e000089
 tags:
@@ -95,7 +97,8 @@ Below this metadata block you should write a description of your tool.
 
 **NOTE:** You must provide an open-source license for your library in order for
 it to be approved. The best way to do that is to include a LICENSE file in the
-repository for your library.
+repository for your library. Indicate the license you have selected in the
+> metadata block of your Markdown file.
 
 To add your library, create a new Markdown file in the `libraries` folder with
 the same name as your library (in a URL-friendly style, such as `js-message-
@@ -109,6 +112,7 @@ contains the following properties.
 ---
 name: JS Message Queue
 creator: Matthew Tole
+license: mit
 link: https://github.com/smallstoneapps/js-message-queue/
 language: js
 ---
