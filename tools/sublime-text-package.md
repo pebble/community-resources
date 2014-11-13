@@ -8,6 +8,10 @@ Sublime Text plugin with SDK completions and commands.
 
 Compatible with SDK Version 2.7
 
+## Super simple installation
+
+Using [Sublime Package Control](http://sublime.wbond.net) you can search for Pebble and install directly from Sublime.
+
 ## Commands
 
 1. `build`
