@@ -64,6 +64,7 @@ This is function allows you to pass in a gbitmap, the color you want to replace 
 - 1) Copy ```gbitmap_color_palette_manipulator.c``` and ```gbitmap_color_palette_manipulator.h``` into your project.
 - 2) Include the following at the top of your C file ```#include "gbitmap_color_palette_manipulator.h"```.
 - 3) Use the functions you require.
+- 4) IMPORTANT: Set ```SHOW_APP_LOGS``` to ```false``` when deploying your production app (```#define SHOW_APP_LOGS false```). Otherwise, calls to the library will be slowed down by redundant text display function calls.
 
 **Example uses**
 
