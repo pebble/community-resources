@@ -8,6 +8,8 @@ language: php
 
 Library for interacting with Pebble Timeline Pin from a server running php.
 
+**Work In Progress**, this project is currently under development, basic features are already functional. Feel free to contribute.
+
 ##  Advantages
 
 Tested, object-oriented, leveraging Guzzle.
