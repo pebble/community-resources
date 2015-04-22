@@ -21,6 +21,7 @@ Currently supported effects:
 <li>Lens</li>
 <li>Mask</li>
 <li>FPS</li>
+<li>Shadow</li>
 </ul>
 
 ![Inverter](http://i.imgur.com/6t9r3qa.gif "Inverter")
