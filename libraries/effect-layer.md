@@ -1,6 +1,6 @@
 ---
 name: EffectLayer
-creator: Yuriy Galanter, Ron64, Eric Arrigo, Grégoire Sage
+creator: Yuriy Galanter, Ron64, Eric Arrigo, Grégoire Sage, mikalgow
 license: mit
 link: https://github.com/ygalanter/EffectLayer
 language: c
@@ -22,6 +22,7 @@ Currently supported effects:
 <li>Mask</li>
 <li>FPS</li>
 <li>Shadow</li>
+<li>Outline</li>
 </ul>
 
 ![Inverter](http://i.imgur.com/6t9r3qa.gif "Inverter")
