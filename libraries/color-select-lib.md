@@ -16,7 +16,7 @@ Useful for converting existing apps to color.
 ```c
 #include "color_sel_lib.h"
 ```
-#### 2. Define a handler to get the entered color:
+#### 2. Define a handler to use the selected color:
 ```c
 void handle_CS_close(int color_argb) {
   GColor color = (GColor){.argb = color_argb};
