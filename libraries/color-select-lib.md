@@ -37,6 +37,6 @@ cswindow_show(myCSWindow, true);
 
 |Parameter|Description|
 |---|---|
-|**default_color**|The default color that the window will try to match. This may be null.|
-|**full_palette**|true to use all 64 color, false to use a subset of 11 main colors. This may be null.|
-|**closeHandler**|The CSCloseHandler to fire when the keyboard closes. This may be null.|
+|**default_color**|The default color that the window will try to match.|
+|**full_palette**|true to use all 64 color, false to use a subset of 11 main colors. The user can switch between the two palettes by holding the select button.|
+|**closeHandler**|The CSCloseHandler to fire when the keyboard closes.|
