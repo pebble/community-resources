@@ -19,7 +19,7 @@ Useful for converting existing apps to color.
 #### 2. Define a handler to get the entered color:
 ```c
 void handle_CS_close(int color_argb) {
-  GColor color.argb = color_argb;
+  GColor color = (GColor){.argb = color_argb};
   // Do something
   
   // or use directly
