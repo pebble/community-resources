@@ -1,6 +1,6 @@
 ---
 name: EffectLayer
-creator: Yuriy Galanter, Ron64, Eric Arrigo, Grégoire Sage, mikalgow
+creator: Yuriy Galanter, Ron64, Eric Arrigo, Grégoire Sage, mikalgow, Colin
 license: mit
 link: https://github.com/ygalanter/EffectLayer
 language: c
@@ -13,6 +13,8 @@ To use the library place the source files in your SRC directory and add #include
 Currently supported effects:
 <ul>
 <li>Invert</li>
+<li>Invert b/w only</li>
+<li>Invert brightness, preserve hue</li>
 <li>Vertical Mirror</li>
 <li>Horizontal Mirror</li>
 <li>Rotate 90 degrees (counter- or clock-wise)</li>
