@@ -1,6 +1,6 @@
 ---
 name: PebbleQuest
-creator: [David C. Drake](http://davidcdrake.com)
+creator: David C. Drake
 license: MIT
 link: https://github.com/theDrake/pebblequest
 appstore: 52d6a7307b4f9ad65300000c
