@@ -1,6 +1,6 @@
 ---
 name: SpaceMerc
-creator: [David C. Drake](http://davidcdrake.com)
+creator: David C. Drake
 license: MIT
 link: https://github.com/theDrake/spacemerc
 appstore: 52d6a8c0333d76e3d000000a
