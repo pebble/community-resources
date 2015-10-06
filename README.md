@@ -131,4 +131,4 @@ If you have any questions about submitting your app, tool or library, or need
 help with forking, writing Markdown or creating a pull request, contact
 <devsupport@getpebble.com>.
 
-[fork]: https://github.com/pebble-hacks/community-resources/fork
+[fork]: https://github.com/pebble/community-resources/fork
