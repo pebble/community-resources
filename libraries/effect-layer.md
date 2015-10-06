@@ -1,6 +1,6 @@
 ---
 name: EffectLayer
-creator: Yuriy Galanter, Ron64, Eric Arrigo, Grégoire Sage, mikalgow, Colin, Martin Norland
+creator: Yuriy Galanter, Ron64, Eric Arrigo, Grégoire Sage, mikalgow, Colin, Martin Norland, n4ru
 license: mit
 link: https://github.com/ygalanter/EffectLayer
 language: c
