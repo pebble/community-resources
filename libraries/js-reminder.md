@@ -3,7 +3,7 @@ name: Pebble Remind
 creator: Matt Langlois
 license: mit
 link: https://github.com/fletchto99/pebble-remind
-language: PHP
+language: js
 ---
 
 Remind is a simple library to remind your users to give your app a heart. A day after the user installs your app they will receive a timeline pin reminding them to heart your app. 
